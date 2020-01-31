@@ -1,9 +1,9 @@
 body {
-    background-image: url('whiskey-1920.jpg');
+    background-image: url('../images/whiskey-1920.jpg');
     height: 100%;
-    widows: 100%;
-    overflow: hidden;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    }
+   
+     }
