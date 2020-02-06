@@ -5,17 +5,118 @@ body {
 
 }
 .callout-container{
-     height: 100vh;      
+    height: 100vh;  
+        
     background: url("../images/background.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
 }
+
+.opaque-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+}
+
 .quotes-container{
 
 }
 .features-container{
 
+}
+/* jumbotron */
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+ color: #ecbb70;
+ font-weight: bold;
+ margin-top: 30px;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
+}
+
+.jumbotron .lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin: 25px 0;
+    color: #a7a7a7;
+}
+.block-divider{
+    height: 5px;
+    width: 75px;
+    background-color: #ecbb70;
+    border: 0;
+    margin-top: 60px;
+}
+/*Buttons*/
+.btn--cta{
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+.btn--red{
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+btn--red:active,
+btn--red:hover,
+btn--red:focus,
+btn--red:active:focus{
+    background-color: #fca591;
+    border-color: #fca591;
+}
+/*Navbar*/
+.navalert-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    z-index: 1;
+}
+.navbar{
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+.navbar .navbar-toggler{
+    border: 0;
+    background-color: rgba(0, 0, 0, .5);
+    
+}
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-color: rgba(0, 0, 0, .5);
+    color: black;
+    border-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
 }
