@@ -30,7 +30,10 @@ body {
     background-color: rgba(0, 0, 0, .5);
 }
 
-.quotes-container{
+body .quotes-container{
+    background-color: #fca591;
+    height: 100%;
+    width: 100%;
 
 }
 .features-container{
@@ -119,4 +122,13 @@ btn--red:active:focus{
     border-color: transparent;
     border: 0;
     -webkit-appearance: none;
+}
+/*Whiskey Chart*/
+
+chart{
+    border-radius: 23px;
+}
+/*Quotes*/
+.quotes-color{
+    background-color: #fca591;
 }
