@@ -1,7 +1,9 @@
 body {
     font-family: 'Playfair Display', serif;
 }
-.alert-container{
+.alert-container .col-12 {
+    padding-left: 0;
+    padding-right: 0;     
 
 }
 .callout-container{
@@ -137,4 +139,9 @@ chart{
 /*Quotes*/
 .quotes-color{
     background-color: #fca591;
+}
+/*Alerts*/
+
+.site-wide-alert{
+
 }
