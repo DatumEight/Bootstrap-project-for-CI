@@ -31,7 +31,7 @@ body {
 }
 
 body .quotes-container{
-    background-color: #fca591;
+    background-color: #fca591 !important;
     height: 100%;
     width: 100%;
 
@@ -122,6 +122,12 @@ btn--red:active:focus{
     border-color: transparent;
     border: 0;
     -webkit-appearance: none;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+.navbar .navbar-nav {
+    font-weight: bold;
 }
 /*Whiskey Chart*/
 
